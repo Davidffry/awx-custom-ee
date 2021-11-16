@@ -1,11 +1,11 @@
 ---
 
 tasks:
-  - init: sudo apt install python3 python3-pip
+  - init: sudo apt install python3 python3-pip -y
     command: |
+      pip3 install --upgrade pip
       pip3 install ansible
       pip3 install ansible-builder
-
 
 vscode:
   extensions:

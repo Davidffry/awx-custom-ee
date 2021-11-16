@@ -1,0 +1,6 @@
+---
+collections:
+    - ansible.netcommon
+    - community.general
+    - community.vmware
+    - community.windows
